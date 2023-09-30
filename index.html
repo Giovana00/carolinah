@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleheet" type="text/css" href="./bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title> Carolina Herrera </title>
 </head>
 <body>
     <!-- Início Menu -->
     <header id="header">
-        <a id="logo" href="indexhtml"><img src="img/logo_carolina.png" alt="Logo Empresa Modelo"></a>
+        <a id="logo" href="indexhtml"><img src="img/logo_carolina2.png" alt="Logo Empresa Modelo"></a>
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
                 <span id="hamburger"></span>                
@@ -20,11 +20,78 @@
                 <li><a class="linkMenu" href="#">Perfumes</a></li> 
                 <li><a class="linkMenu" href="#">Maquiagens</a></li> 
                 <li><a class="linkMenu" href="#">Acessórios</a></li> 
-                <li><a class="linkMenu" href="#">Sobre nós</a></li> 
+                <li><a class="linkMenu" href="#">Contato</a></li> 
             </ul>
-
         </nav>
     </header>
     <!-- Fim Menu -->
+    <!-- Inicio Caroussel Pagina principal -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-pause="hover">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2700">
+                <img 
+                src="./img/carossel1.jpg" 
+                class="d-block w-100"
+                alt="Banner 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="2350">
+                <img 
+                src="./img/carrossel2.jpg" 
+                class="d-block w-100"
+                alt="Banner 2">
+            </div>
+            <div class="carousel-item" data-bs-interval="2350">
+                <img 
+                src="./img/carrossel3.jpg" 
+                class="d-block w-100"
+                alt="Banner 3">
+            </div>
+        </div>
+
+        <button
+            class="carousel-control-prev"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <p></p>
+    </div>
+    <!-- Fim Caroussel Pagina principal -->
+    <!-- Início Banner -->
+    <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./img/carolas.jpg" alt="Banner Home">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="texto-banner d-none d-md-block">
+                        <h1>“Tenho um dever perante a mulher de hoje: ajudá-la a sentir-se confiante, moderna e, sobretudo, bela."
+                            <p>- Carolina Herrera</h1>
+                        <p class="d-none d-md-block">Nas últimas quatro décadas, Carolina Herrera, nascida na Venezuela, tornou-se uma das designers mais ilustres do mundo, reunindo inúmeros elogios e fãs proeminentes por sua sofisticação exclusiva e elegância americana de excelência.</p>
+                        <a href="#">Saiba Mais</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Banner -->
 </body>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
 </html>
