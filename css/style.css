@@ -21,7 +21,7 @@ body, ul{
     height: 70px;
 }
 #logo img:hover{
-    box-shadow: 2px 2px 4px #cbcbcb;
+    box-shadow: 4px 4px 8px #cbcbcb;
     transition: 0.3s;
 }
 #header {
@@ -70,8 +70,13 @@ body, ul{
     width: 70%;
     display: block;
     margin: auto;
+    box-shadow: 7px 7px 3px #858585;
 }
 .section-banner-home .texto-banner {
+    font-size: 30px;
+    width: 80%;  /* width = Largura */
+    font-weight: 500; /* Espessura do texto */
+    padding-bottom: 20px; /* Margem interna > Embaixo */
     margin-top: 30px;
     font-size: 22px;
 }
@@ -83,6 +88,7 @@ body, ul{
     font-size: 15px;
     margin-bottom: 20px;
     color: white;
+    text-align: justify;
 }
 .section-banner-home .texto-banner a {
     color: rgb(255, 255, 255);
@@ -90,7 +96,7 @@ body, ul{
     background-color: #062e50ea;
     padding: 4px 14px;
     font-size: 15px;
-  transition: 0.3; /* Deixando o efeito suave */
+    transition: 0.3; /* Deixando o efeito suave */
 }
 .section-banner-home .texto-banner a:houver {
     /* color: greenyellow; */
@@ -99,3 +105,106 @@ body, ul{
     font-weight: bold;
 }
 /* Fim estilo Banner Home */
+
+/* Inicio estilo destaque*/
+.destaque h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.destque p {
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+}
+.destque figcaption {
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.destaque #saiba-mais {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    background: #062e50ea;
+    margin: 30px 0px;
+    width: 100%;   
+}
+.destaque .col-6 img:hover{
+    box-shadow: 4px 4px 8px #cbcbcb;
+    transition: 0.3s;
+}
+
+/* Fim estilo destaque*/
+
+/* Inicio estilo novidades */
+.novidades .text-body{
+    width: 80%;
+    margin: 70px;
+}
+.novidades h2 {
+    color: #000;
+    /*font-size: 26px;
+    width: 70px;*/
+}
+.novidades p {
+    color: rgba(0, 0, 0);
+}
+.novidades a {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    background: #062e50ea;
+    margin: 30px 0px;
+    width: 35%;   
+}
+
+/* Fim estilo novidades */
+/* Início estilo Galeria */
+.galeria {
+    margin: 60px auto 20px;
+    /* Quando tivermos 4 valores no margin = top / right / botton / left > Exemplo: margin: 60px 60px 60px 60px; */
+    /* Quando tivermos 3 valores = top / right and left / botton > Exemplo: margin: 60px auto 60px; */
+    /* Quando tivermos 2 valores = top and botton / right and left > Exemplo: margin: 60px 30px; */
+    /* Quando tivermos 21 valor = top, botton, right, left serão idênticos > Exemplo: margin 60px; */
+    /* Esta regra se aplica também ao padding */
+}
+.galeria {
+    margin-left: 11%;
+}
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+}
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+.galeria .gallery {
+    width: 30%;
+    margin: 14px auto 50px;
+}
+.galeria .gallery img {
+    width: 60%;
+    height: 80%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    display: block;
+}
+.galeria .gallery img:hover {
+    -webkit-transform: scale(1.4);
+    transition: scale(1.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
+}
+/* Fim estilo Galeria */
