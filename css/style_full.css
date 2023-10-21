@@ -7,24 +7,24 @@ body, ul{
     padding: 0px;
 }
 #menu a{
-    font-size: 22px;
-    /* border-bottom-left-radius: 15px; *Arredondar canto abaixo e esquerdo
-    border-bottom-right-radius: 15px; *Arredondar canto abaixo e direito
-    border-color: #006ccb 
-    border-top: 4px solid #000000;
-    box-shadow: #cbcbcb; */
     color: black;
     text-decoration: none;
     /*font-family: sans-serif;*/
     font-family: 'PT Serif', serif;
-    font-weight: 400; 
-    transition: 0.3s;
+    font-size: 15px;
+    /* font-weight: 400; 
+    transition: 0.1s;
     text-align: center;
-    padding: 0 0.4em 0.2em 0.4em; 
+    padding: 0 0.4em; */
 }
 #menu a:hover{
-    /* background: rgba(0, 0, 0, 0.05); */
+    background: rgba(0, 0, 0, 0.05);
     font-size: 15px;
+    /* border-bottom-left-radius: 15px; Arredondar canto abaixo e esquerdo
+    border-bottom-right-radius: 15px; Arredondar canto abaixo e direito
+    border-color: #006ccb 
+    border-top: 0.4px solid #000000;
+    box-shadow: #cbcbcb;  */
 }
 #logo {
     font-size: 1.5rem;
