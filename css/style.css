@@ -444,6 +444,19 @@ body, ul{
     display: inline-block;
   }
   .section p {
-    
+    color: #e8e8e8;
+    margin-bottom: 30px;
+  }
+  .contact input,
+  .contact textarea {
+    background: #fafafa;
+  }
+  .contact textarea {
+    min-width: 188px;
+    max-width: 100%;
+  }
+  .contact .map {
+    overflow: hidden;
+    border-radius: 4px;
   }
   /* Fim estilo contato */
