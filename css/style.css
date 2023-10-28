@@ -452,11 +452,24 @@ body, ul{
     background: #fafafa;
   }
   .contact textarea {
-    min-width: 188px;
+    min-width: 500px;
     max-width: 100%;
   }
   .contact .map {
     overflow: hidden;
     border-radius: 4px;
+    height: 70%;
   }
   /* Fim estilo contato */
+  /* Inicio estilo market-place */
+  .market-place {
+    height: 180px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .market-place img {
+    height: 100%;
+    width: 100%;
+  }
+  /* Fim estilo market-place */
