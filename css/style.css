@@ -494,12 +494,15 @@ body, ul{
     max-height: 300px;
     width: auto;
  }
- .bg-image {
+ .card .bg-image {
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+ }
+ .card .bg-image img {
+    height: 300px;
  }
  .mask {
     position: absolute;
